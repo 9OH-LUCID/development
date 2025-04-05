@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {   
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container {
+    width: 80vw;
+    height: 70vh;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.scan-body {
+    width: 20%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.scan-image-container {
+    width: 100%;
+    height: 60%;
+}
+
+.scan-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.scan-text {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.scan-text h3 {
+    color: hsl(218, 44%, 22%);
+}
+
+.scan-text p {
+    margin-top: 10px;
+    color: hsl(216, 15%, 48%);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 75vw;
+        height: 80vh;
+        margin-top: 3%;
+        padding: 3%;
+    }
+
+    .scan-body {
+        width: 90%;
+    }
+}
